@@ -51,7 +51,7 @@
 		<module>sernet.hui.swtclient</module>
 		<module>sernet.springclient</module>
 		<module>sernet.verinice.bp.importer</module>
-        <module>sernet.verinice.desktop.integration</module>
+ <!--       <module>sernet.verinice.desktop.integration</module>   -->
 		<module>sernet.verinice.fei.rcp</module>
 		<module>sernet.verinice.fei.service</module>
 		<module>sernet.verinice.kerberos</module>
@@ -60,8 +60,6 @@
 		<module>sernet.verinice.samt.rcp</module>
 		<module>sernet.verinice.samt.service</module>
 		<module>waffle</module>
-		<module>sernet.verinice.extraresources.jre_linux_64</module>
-		<module>sernet.verinice.extraresources.jre_macos_64</module>
 		<module>sernet.verinice.extraresources.jre_win_64</module>
 
 		<!-- tests -->
@@ -106,18 +104,8 @@
 					</target>
 					<environments>
 						<environment>
-							<os>linux</os>
-							<ws>gtk</ws>
-							<arch>x86_64</arch>
-						</environment>
-						<environment>
 							<os>win32</os>
 							<ws>win32</ws>
-							<arch>x86_64</arch>
-						</environment>
-						<environment>
-							<os>macosx</os>
-							<ws>cocoa</ws>
 							<arch>x86_64</arch>
 						</environment>
 					</environments>

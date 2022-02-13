@@ -3,6 +3,7 @@
 	<name>jbpm</name>
 	<comment></comment>
 	<projects>
+		<project>dependencies</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

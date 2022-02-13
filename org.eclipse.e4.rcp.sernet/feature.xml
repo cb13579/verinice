@@ -335,16 +335,6 @@ Library.
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.e4.ui.workbench.renderers.swt.cocoa"
-         os="macosx"
-         ws="cocoa"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"
-         unpack="false"/>
-
-   <plugin
          id="org.eclipse.equinox.common"
          download-size="0"
          install-size="0"
@@ -493,26 +483,6 @@ Library.
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.equinox.launcher.cocoa.macosx.x86_64"
-         os="macosx"
-         ws="cocoa"
-         arch="x86_64"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"/>
-
-   <plugin
-         id="org.eclipse.equinox.launcher.gtk.linux.x86_64"
-         os="linux"
-         ws="gtk"
-         arch="x86_64"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"/>
-
-   <plugin
          id="org.eclipse.equinox.launcher.win32.win32.x86_64"
          os="win32"
          ws="win32"
@@ -533,28 +503,6 @@ Library.
          id="org.eclipse.swt.win32.win32.x86_64"
          os="win32"
          ws="win32"
-         arch="x86_64"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.swt.gtk.linux.x86_64"
-         os="linux"
-         ws="gtk"
-         arch="x86_64"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.swt.cocoa.macosx.x86_64"
-         os="macosx"
-         ws="cocoa"
          arch="x86_64"
          download-size="0"
          install-size="0"
@@ -653,16 +601,7 @@ Library.
          version="0.0.0"
          unpack="false"/>
 
-   <plugin
-         id="org.eclipse.e4.ui.swt.gtk"
-         ws="gtk"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"
-         unpack="false"/>
-
-   <plugin
+    <plugin
          id="org.eclipse.e4.core.di.extensions.supplier"
          download-size="0"
          install-size="0"
