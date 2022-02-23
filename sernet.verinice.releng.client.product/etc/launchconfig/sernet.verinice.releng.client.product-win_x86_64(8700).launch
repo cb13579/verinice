@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.pde.ui.RuntimeWorkbench">
+    <setAttribute key="additional_plugins">
+        <setEntry value="sernet.verinice.kerberos:1.23.1.qualifier:default:true:1:true"/>
+    </setAttribute>
+    <booleanAttribute key="append.args" value="true"/>
+    <stringAttribute key="application" value="sernet.gs.ui.rcp.main.application"/>
+    <booleanAttribute key="askclear" value="true"/>
+    <booleanAttribute key="automaticAdd" value="true"/>
+    <booleanAttribute key="automaticValidate" value="true"/>
+    <stringAttribute key="bootstrap" value=""/>
+    <stringAttribute key="checked" value="[NONE]"/>
+    <booleanAttribute key="clearConfig" value="false"/>
+    <booleanAttribute key="clearws" value="false"/>
+    <booleanAttribute key="clearwslog" value="false"/>
+    <stringAttribute key="configLocation" value="${workspace_loc}/.metadata/.plugins/org.eclipse.pde.core/sernet.verinice.releng.client.product-win_x86_64(8700)"/>
+    <booleanAttribute key="default" value="false"/>
+    <setAttribute key="deselected_workspace_bundles">
+        <setEntry value="sernet.gs.server.tests"/>
+        <setEntry value="sernet.gs.service.tests"/>
+        <setEntry value="sernet.gs.ui.rcp.main.tests"/>
+        <setEntry value="sernet.verinice.desktop.integration"/>
+        <setEntry value="sernet.verinice.extraresources.jre_linux_64"/>
+        <setEntry value="sernet.verinice.extraresources.jre_macos_64"/>
+    </setAttribute>
+    <booleanAttribute key="includeOptional" value="true"/>
+    <stringAttribute key="location" value="${workspace_loc}/../runtime-sernet.verinice.releng.client.product"/>
+    <listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+        <listEntry value="org.eclipse.debug.ui.launchGroup.debug"/>
+    </listAttribute>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_ATTR_USE_ARGFILE" value="false"/>
+    <stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-os ${target.os} -ws ${target.ws} -arch ${target.arch} -nl ${target.nl} -consoleLog -data @user.home/verinice/workspace"/>
+    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dorg.eclipse.swt.graphics.Resource.reportNonDisposed=true -Xms512m -Xmx4g -Dorg.osgi.service.http.port=8800 -Dorg.ops4j.pax.web.listening.addresses=localhost -Dosgi.parentClassloader=ext -Djavax.xml.soap.SOAPFactory=org.apache.axis.soap.SOAPFactoryImpl -Djavax.xml.soap.MessageFactory=org.apache.axis.soap.MessageFactoryImpl -Djavax.xml.soap.SOAPConnectionFactory=org.apache.axis.soap.SOAPConnectionFactoryImpl"/>
+    <stringAttribute key="pde.version" value="3.2a"/>
+    <stringAttribute key="product" value="sernet.gs.ui.rcp.main.product"/>
+    <stringAttribute key="productFile" value="/sernet.verinice.releng.client.product/sernet.verinice.releng.client.product"/>
+    <setAttribute key="selected_features">
+        <setEntry value="org.eclipse.e4.rcp.sernet:default"/>
+        <setEntry value="sernet.birt.feature:default"/>
+        <setEntry value="sernet.datatools.feature:default"/>
+        <setEntry value="sernet.eclipse.feature:default"/>
+        <setEntry value="sernet.gs.server.feature:default"/>
+        <setEntry value="sernet.localdependencies:default"/>
+        <setEntry value="sernet.rcp.ui.feature:default"/>
+        <setEntry value="sernet.thirdparty.feature:default"/>
+        <setEntry value="sernet.verinice.app.feature:default"/>
+        <setEntry value="sernet.verinice.extraresources.feature:default"/>
+        <setEntry value="sernet.verinice.lang.feature:default"/>
+    </setAttribute>
+    <setAttribute key="selected_target_bundles"/>
+    <setAttribute key="selected_workspace_bundles">
+        <setEntry value="bouncycastle@default:default"/>
+        <setEntry value="gnumail@default:default"/>
+        <setEntry value="jbpm@default:default"/>
+        <setEntry value="sernet.client.service.handlerrights@default:default"/>
+        <setEntry value="sernet.client.service@default:default"/>
+        <setEntry value="sernet.gs.db.fragment@default:false"/>
+        <setEntry value="sernet.gs.ehcache.fragment@default:false"/>
+        <setEntry value="sernet.gs.hibernate.fragment@default:false"/>
+        <setEntry value="sernet.gs.log4j.fragment@default:false"/>
+        <setEntry value="sernet.gs.pax_web.fragment@default:false"/>
+        <setEntry value="sernet.gs.reveng@default:default"/>
+        <setEntry value="sernet.gs.server@default:default"/>
+        <setEntry value="sernet.gs.service@default:default"/>
+        <setEntry value="sernet.gs.springweb.fragment@default:false"/>
+        <setEntry value="sernet.gs.ui.rcp.main@default:default"/>
+        <setEntry value="sernet.hui.common@default:default"/>
+        <setEntry value="sernet.hui.swtclient@default:default"/>
+        <setEntry value="sernet.springclient@default:default"/>
+        <setEntry value="sernet.verinice.bp.importer@default:default"/>
+        <setEntry value="sernet.verinice.extraresources.jre_win_64@default:default"/>
+        <setEntry value="sernet.verinice.fei.rcp@default:default"/>
+        <setEntry value="sernet.verinice.fei.service@default:default"/>
+        <setEntry value="sernet.verinice.kerberos@1:true"/>
+        <setEntry value="sernet.verinice.oda.driver@default:default"/>
+        <setEntry value="sernet.verinice.report.service@default:default"/>
+        <setEntry value="sernet.verinice.samt.rcp@default:default"/>
+        <setEntry value="sernet.verinice.samt.service@default:default"/>
+        <setEntry value="waffle@default:default"/>
+    </setAttribute>
+    <booleanAttribute key="show_selected_only" value="false"/>
+    <stringAttribute key="templateConfig" value="C:\home\dev\verinice\sernet.verinice.releng.client.product\target\products\sernet.verinice.releng.client\win32\win32\x86_64\verinice\configuration\config.ini"/>
+    <booleanAttribute key="tracing" value="false"/>
+    <booleanAttribute key="useCustomFeatures" value="false"/>
+    <booleanAttribute key="useDefaultConfig" value="true"/>
+    <booleanAttribute key="useDefaultConfigArea" value="true"/>
+    <booleanAttribute key="useProduct" value="true"/>
+    <booleanAttribute key="usefeatures" value="false"/>
+</launchConfiguration>

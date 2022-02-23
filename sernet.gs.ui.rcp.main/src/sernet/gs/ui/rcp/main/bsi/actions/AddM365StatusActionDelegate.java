@@ -17,24 +17,31 @@
  ******************************************************************************/
 package sernet.gs.ui.rcp.main.bsi.actions;
 
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
 import org.eclipse.jface.action.IAction;
 import org.eclipse.jface.viewers.ISelection;
 import org.eclipse.jface.viewers.IStructuredSelection;
 import org.eclipse.ui.IObjectActionDelegate;
 import org.eclipse.ui.IWorkbenchPart;
 
+import sernet.gs.ui.rcp.main.ApplicationWorkbenchWindowAdvisor;
 import sernet.gs.ui.rcp.main.ExceptionUtil;
 import sernet.gs.ui.rcp.main.bsi.editors.EditorFactory;
 import sernet.hui.common.VeriniceContext;
 import sernet.springclient.RightsServiceClient;
 import sernet.verinice.interfaces.ActionRightIDs;
 import sernet.verinice.interfaces.RightEnabledUserInteraction;
+import sernet.verinice.model.bsi.BausteinUmsetzung;
 import sernet.verinice.model.bsi.Note;
 import sernet.verinice.model.common.CnATreeElement;
 
-public class AddStatusActionDelegate implements IObjectActionDelegate, RightEnabledUserInteraction {
+public class AddM365StatusActionDelegate implements IObjectActionDelegate, RightEnabledUserInteraction {
 
     private IWorkbenchPart targetPart;
+    
+    private static final Logger LOG = Logger.getLogger(AddM365StatusActionDelegate.class);
+    
 
     public void setActivePart(IAction action, IWorkbenchPart targetPart) {
         this.targetPart = targetPart;
@@ -48,11 +55,11 @@ public class AddStatusActionDelegate implements IObjectActionDelegate, RightEnab
                 Note note = new Note();
                 note.setCnATreeElement(((CnATreeElement) sel));
                 note.setCnAElementTitel(((CnATreeElement) sel).getTitle());
-                note.setTitel(Messages.AddStatusActionDelegate_0);
+                note.setTitel(Messages.AddM365StatusActionDelegate_0);
                 EditorFactory.getInstance().openEditor(note);
             }
         } catch (Exception e) {
-            ExceptionUtil.log(e, Messages.AddStatusActionDelegate_1);
+            ExceptionUtil.log(e, Messages.AddM365StatusActionDelegate_1);
         }
     }
 
@@ -63,6 +70,22 @@ public class AddStatusActionDelegate implements IObjectActionDelegate, RightEnab
      */
     @Override
     public void selectionChanged(IAction action, ISelection selection) {
+    	LOG.setLevel(Level.DEBUG);
+        LOG.debug("selectionChanged is permitted:\t" + checkRights());
+
+        Object sel = ((IStructuredSelection) targetPart.getSite().getSelectionProvider().getSelection()).getFirstElement();
+        if (sel instanceof CnATreeElement) {
+        	LOG.debug("elementSelected: id:" + ((CnATreeElement)sel).getId());
+        	LOG.debug("elementSelected: title:" + ((CnATreeElement)sel).getTitle());
+        	LOG.debug("elementSelected: type:" + ((CnATreeElement)sel).getTypeId());
+        	LOG.debug("elementSelected: extId:" + ((CnATreeElement)sel).getExtId());
+        	LOG.debug("elementSelected: sourceId:" + ((CnATreeElement)sel).getSourceId());
+        	    
+        	if (sel instanceof BausteinUmsetzung) {
+        		BausteinUmsetzung bu = (BausteinUmsetzung) sel;
+        		LOG.debug("selectionChanged: Baustein:" + bu.getKapitel());
+        	}
+        }
         action.setEnabled(checkRights());
     }
 
@@ -81,7 +104,7 @@ public class AddStatusActionDelegate implements IObjectActionDelegate, RightEnab
      */
     @Override
     public String getRightID() {
-        return ActionRightIDs.ADDSTATUS;
+        return ActionRightIDs.ADDM365STATUS;
     }
 
 }

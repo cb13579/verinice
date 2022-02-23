@@ -1089,6 +1089,7 @@ File: ./sernet.verinice.samt.rcp/OSGI-INF/l10n/bundle_de.properties
   Same    -> view.name.3
   Same    -> view.name.5
   Same    -> action.label.13
+  Same    -> action.label.41
   Same    -> view.name.4
   Same    -> action.label.6
   Same    -> view.name.1

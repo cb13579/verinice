@@ -39,9 +39,6 @@
             id="sernet.verinice.rcp.bp.BaseProtectionPerspective"
             name="%perspective.name.bp">
       </perspective>
-
-
-
    </extension>
    <extension
          point="org.eclipse.ui.views">
@@ -122,6 +119,16 @@
             name="%view.name.8"
             restorable="true">
       </view>
+      <view
+            allowMultiple="false"
+            category="sernet.gs.ui.rcp.main.bsi.views"
+            class="sernet.gs.ui.rcp.main.bsi.views.M365StatusView"
+            icon="icons/icons8-office-365-security-compliance-24.png"
+            id="sernet.gs.ui.rcp.main.bsi.views.M365StatusView"
+            name="%view.name.100"
+            restorable="true">
+      </view>
+      
       <view
             allowMultiple="false"
             category="sernet.gs.ui.rcp.main.bsi.views"
@@ -213,8 +220,6 @@
             name="%view.name.catalog"
             restorable="true">
       </view>
-
-
    </extension>
    <extension point="org.eclipse.ui.commands">
       <command
@@ -710,6 +715,21 @@
                menubarPath="special"
                style="push"
                tooltip="%action.tooltip.13">
+         </action>
+      </objectContribution>
+      <objectContribution
+            adaptable="false"
+            id="sernet.gs.ui.rcp.main.bsi.m365statuscontrib"
+            objectClass="sernet.verinice.model.common.CnATreeElement">
+         <action
+               class="sernet.gs.ui.rcp.main.bsi.actions.AddM365StatusActionDelegate"
+               enablesFor="1"
+               icon="icons/icons8-office-365-security-compliance-24.png"
+               id="sernet.gs.ui.rcp.main.bsi.actions.addm365status"
+               label="%action.label.41"
+               menubarPath="special"
+               style="push"
+               tooltip="%action.tooltip.41">
          </action>
       </objectContribution>
       <objectContribution
@@ -1651,14 +1671,18 @@
             default="false"
             icon="icons/note.png"
             id="sernet.gs.ui.rcp.main.bsi.editors.noteeditor"
-            name="%editor.name.0">
-      </editor>
+            name="%editor.name.0"/>
+      <editor
+            class="sernet.gs.ui.rcp.main.bsi.editors.M365StatusEditor"
+            default="false"
+            icon="icons/icons8-office-365-security-compliance-24.png"
+            id="sernet.gs.ui.rcp.main.bsi.editors.m365statuseditor"
+            name="%editor.name.2"/>
       <editor
             class="sernet.gs.ui.rcp.main.bsi.editors.AttachmentEditor"
             default="false"
             id="sernet.gs.ui.rcp.main.bsi.editors.attachmenteditor"
-            name="%editor.name.1">
-      </editor>
+            name="%editor.name.1"/>
       <editor
             class="sernet.verinice.rcp.linktable.LinkTableEditor"
             default="false"

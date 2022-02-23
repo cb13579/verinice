@@ -172,6 +172,10 @@ public class NoteView extends RightsEnabledView implements ILinkedWithEditorView
     }
 
     private void elementSelected(Object element) {
+    	if(element==null) {
+    		LOG.error("element is null");
+    		return;
+    	}
         if (element instanceof CnATreeElement && !element.equals(getCurrentCnaElement())) {
             if (addNoteAction.checkRights()) {
                 addNoteAction.setEnabled(true);

@@ -37,6 +37,7 @@ public final class ActionRightIDs {
     public static final String ADDITVERBUND = "additverbund";
     public static final String ADDBPELEMENT = "addbpelement";
     public static final String ADDNOTE = "addnote";
+    public static final String ADDM365STATUS = "addm365status";
     public static final String ADDSECURITYASSESSMENT = "addsecurityassessment";
     public static final String ADDOWNMODUL = "addownmodul";
     public static final String ASSIGNALLISATOPICS = "assignallisatopics";
@@ -78,6 +79,7 @@ public final class ActionRightIDs {
     public static final String BASEPROTECTIONVIEW = "baseprotectionview";
     public static final String NATURALIZE = "naturalize";
     public static final String NOTES = "notes";
+    public static final String M365STATUS = "m365status";
     public static final String CHANGEOWNPASSWORD = "changeownpassword";
     public static final String RELATIONS = "relations";
     public static final String REPORTDEPOSIT = "reportdeposit";

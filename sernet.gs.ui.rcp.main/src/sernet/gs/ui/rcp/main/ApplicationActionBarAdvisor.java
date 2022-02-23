@@ -75,6 +75,7 @@ import sernet.gs.ui.rcp.main.bsi.views.BrowserView;
 import sernet.gs.ui.rcp.main.bsi.views.BsiModelView;
 import sernet.gs.ui.rcp.main.bsi.views.DocumentView;
 import sernet.gs.ui.rcp.main.bsi.views.FileView;
+import sernet.gs.ui.rcp.main.bsi.views.M365StatusView;
 import sernet.gs.ui.rcp.main.bsi.views.NoteView;
 import sernet.gs.ui.rcp.main.bsi.views.RelationView;
 import sernet.gs.ui.rcp.main.bsi.views.TodoView;
@@ -146,6 +147,8 @@ public class ApplicationActionBarAdvisor extends ActionBarAdvisor {
 
     private OpenViewAction openNoteAction;
 
+    private OpenViewAction openM365StatusAction;
+    
     private OpenViewAction openFileAction;
 
     private OpenViewAction openRelationViewAction;
@@ -252,6 +255,8 @@ public class ApplicationActionBarAdvisor extends ActionBarAdvisor {
                 ActionRightIDs.BSIBROWSER);
         this.openNoteAction = new OpenViewAction(window, Messages.ApplicationActionBarAdvisor_1,
                 NoteView.ID, ImageCache.VIEW_NOTE, ActionRightIDs.NOTES);
+        this.openM365StatusAction = new OpenViewAction(window, Messages.ApplicationActionBarAdvisor_100,
+                M365StatusView.ID, ImageCache.VIEW_M365STATUS, ActionRightIDs.M365STATUS);
         this.openFileAction = new OpenViewAction(window, Messages.ApplicationActionBarAdvisor_2,
                 FileView.ID, ImageCache.ATTACH, ActionRightIDs.FILES);
         this.openRelationViewAction = new OpenViewAction(window,
@@ -333,6 +338,7 @@ public class ApplicationActionBarAdvisor extends ActionBarAdvisor {
                 this.newWindowAction, this.saveAction, this.saveAsAction, this.closeAction,
                 this.closeAllAction, this.closeOthersAction, this.openBSIBrowserAction,
                 this.openNoteAction, this.openFileAction, this.openRelationViewAction,
+                this.openM365StatusAction, this.openFileAction, this.openRelationViewAction,
                 this.openBSIViewAction, this.openBSIModelViewAction, this.openISMViewAction,
                 this.openTodoViewAction, this.openAuditViewAction, this.openTaskViewAction,
                 this.openValidationViewAction, this.reloadAction, this.importGstoolAction,
@@ -483,6 +489,7 @@ public class ApplicationActionBarAdvisor extends ActionBarAdvisor {
         viewsMenu.add(this.openDocumentViewAction);
         viewsMenu.add(this.openBSIBrowserAction);
         viewsMenu.add(this.openNoteAction);
+        viewsMenu.add(this.openM365StatusAction);
         viewsMenu.add(this.openFileAction);
         viewsMenu.add(this.openRelationViewAction);
         viewsMenu.add(this.openValidationViewAction);
@@ -580,6 +587,7 @@ public class ApplicationActionBarAdvisor extends ActionBarAdvisor {
         myToolbar.add(this.openReportdepositViewAction);
         myToolbar.add(this.openBSIBrowserAction);
         myToolbar.add(this.openNoteAction);
+        myToolbar.add(this.openM365StatusAction);
         myToolbar.add(this.openFileAction);
         myToolbar.add(this.openRelationViewAction);
         myToolbar.add(this.openValidationViewAction);

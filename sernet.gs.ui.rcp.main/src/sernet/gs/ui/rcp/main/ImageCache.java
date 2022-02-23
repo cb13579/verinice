@@ -193,6 +193,9 @@ public final class ImageCache {
     public static final String VIEW_TODO = "24-em-check.png";
     public static final String VIEW_AUDIT = "pruefplan-toolbar.png";
     public static final String VIEW_NOTE = "note.png";
+    public static final String VIEW_M365STATUS = "icons8-office-365-security-compliance-24.png";
+    public static final String BUTTON_GET_M365STATUS = "uns-reportUpdate24.png";
+    public static final String BUTTON_SHOW_M365STATUS = "uns-report24.png";
     public static final String VIEW_TASK = "tasks.gif";
     public static final String VIEW_TASK_COMPARE_CHANGES = "history_rep.gif";
     public static final String VIEW_VALIDATION = "quickfix_warning_obj.gif";
@@ -232,9 +235,10 @@ public final class ImageCache {
     public static final String LINK_UP = "link_up.png";
 
     public static final String NOTE = "note.png";
-
+    public static final String M365STATUS = "icons8-office-365-security-compliance-24.png";
     public static final String NOTE_NEW = "note-new.png";
-
+    public static final String M365STATUS_NEW = "icons8-office-365-security-compliance-24-new.png";
+    
     public static final String DELETE = "delete.png";
 
     public static final String EDIT = "edit.png";

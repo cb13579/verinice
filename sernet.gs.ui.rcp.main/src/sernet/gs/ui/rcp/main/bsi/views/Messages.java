@@ -229,6 +229,24 @@ public final class Messages extends NLS {
 
     public static String NoteView_8;
 
+    public static String M365StatusView_0;
+
+    public static String M365StatusView_12;
+
+    public static String M365StatusView_2;
+
+    public static String M365StatusView_3;
+
+    public static String M365StatusView_4;
+
+    public static String M365StatusView_5;
+
+    public static String M365StatusView_6;
+
+    public static String M365StatusView_7;
+
+    public static String M365StatusView_8;
+
     public static String RelationTableViewer_0;
 
     public static String RelationTableViewer_1;

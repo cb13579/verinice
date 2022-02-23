@@ -21,6 +21,7 @@ import java.net.MalformedURLException;
 
 import org.apache.log4j.Logger;
 
+import sernet.gs.ui.rcp.main.bsi.editors.M365StatusEditor;
 import sernet.hui.common.VeriniceContext;
 import sernet.springclient.SpringClientPlugin;
 import sernet.verinice.interfaces.IAccountService;
@@ -47,7 +48,7 @@ public abstract class ServiceFactory {
 
     private static final String WORK_OBJECTS = "workObjects";
     private static Boolean permissionHandlingNeeded = null;
-
+    
     public static void openCommandService() throws MalformedURLException {
         SpringClientPlugin.getDefault().openBeanFactory();
     }

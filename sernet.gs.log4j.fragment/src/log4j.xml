@@ -44,6 +44,11 @@
 		<level value="INFO" />
 	</logger>
 
+    <!-- Logs dialogs and views -->
+	<logger name="sernet.gs.ui.rcp.main">
+		<level value="DEBUG" />
+	</logger>
+
 	<!-- Logger for everything else -->
 	<root>
 		<priority value="WARN" />

@@ -38,6 +38,8 @@ public class Messages extends NLS {
     public static String AddNetzKomponenteActionDelegate_0;
     public static String AddNoteActionDelegate_0;
     public static String AddNoteActionDelegate_1;
+    public static String AddM365StatusActionDelegate_0;
+    public static String AddM365StatusActionDelegate_1;
     public static String AddPersonActionDelegate_0;
     public static String AddRaumActionDelegate_0;
     public static String AddServerActionDelegate_0;

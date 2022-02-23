@@ -1,0 +1,581 @@
+!SESSION 2022-02-12 21:04:12.065 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho11410906199993948841secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho11410906199993948841secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-12 21:04:12.069
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-12 21:04:12.070
+!MESSAGE Add request for verinice 1.23.1.202202122000 (sernet.verinice.releng.client 1.23.1.202202122000) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-12 21:05:39.234
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-12 21:05:39.236
+!MESSAGE Add request for verinice server 1.23.1.202202122000 (sernet.verinice.releng.server.product 1.23.1.202202122000) is satisfiable
+!SESSION 2022-02-13 10:59:19.346 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho3952523561028976614secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho3952523561028976614secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-13 10:59:19.350
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-13 10:59:19.351
+!MESSAGE Add request for verinice 1.23.1.202202130953 (sernet.verinice.releng.client 1.23.1.202202130953) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-13 11:00:41.954
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-13 11:00:41.955
+!MESSAGE Add request for verinice server 1.23.1.202202130953 (sernet.verinice.releng.server.product 1.23.1.202202130953) is satisfiable
+!SESSION 2022-02-13 11:20:20.825 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho14513964606419314255secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho14513964606419314255secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-13 11:20:20.829
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-13 11:20:20.830
+!MESSAGE Add request for verinice 1.23.1.202202131015 (sernet.verinice.releng.client 1.23.1.202202131015) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-13 11:22:04.226
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-13 11:22:04.227
+!MESSAGE Add request for verinice server 1.23.1.202202131015 (sernet.verinice.releng.server.product 1.23.1.202202131015) is satisfiable
+!SESSION 2022-02-13 12:00:55.520 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho14432648994445801117secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho14432648994445801117secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-13 12:00:55.524
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-13 12:00:55.525
+!MESSAGE Add request for verinice 1.23.1.202202131056 (sernet.verinice.releng.client 1.23.1.202202131056) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-13 12:02:18.052
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-13 12:02:18.053
+!MESSAGE Add request for verinice server 1.23.1.202202131056 (sernet.verinice.releng.server.product 1.23.1.202202131056) is satisfiable
+!SESSION 2022-02-13 17:30:47.394 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho10906109224987249164secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho10906109224987249164secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-13 17:30:47.399
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-13 17:30:47.400
+!MESSAGE Add request for verinice 1.23.1.202202131624 (sernet.verinice.releng.client 1.23.1.202202131624) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-13 17:33:20.664
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-13 17:33:20.667
+!MESSAGE Add request for verinice server 1.23.1.202202131624 (sernet.verinice.releng.server.product 1.23.1.202202131624) is satisfiable
+!SESSION 2022-02-13 18:47:24.367 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho3708990223439006702secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho3708990223439006702secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-13 18:47:24.379
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-13 18:47:24.382
+!MESSAGE Add request for verinice 1.23.1.202202131738 (sernet.verinice.releng.client 1.23.1.202202131738) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-13 18:50:34.926
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-13 18:50:34.929
+!MESSAGE Add request for verinice server 1.23.1.202202131738 (sernet.verinice.releng.server.product 1.23.1.202202131738) is satisfiable
+!SESSION 2022-02-19 14:08:15.004 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho14537271454526439798secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho14537271454526439798secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-19 14:08:15.004
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-19 14:08:15.004
+!MESSAGE Add request for verinice 1.23.1.202202191304 (sernet.verinice.releng.client 1.23.1.202202191304) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-19 14:09:28.363
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-19 14:09:28.363
+!MESSAGE Add request for verinice server 1.23.1.202202191304 (sernet.verinice.releng.server.product 1.23.1.202202191304) is satisfiable
+!SESSION 2022-02-19 15:25:37.022 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho8062035058128236991secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho8062035058128236991secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-19 15:25:37.022
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-19 15:25:37.022
+!MESSAGE Add request for verinice 1.23.1.202202191421 (sernet.verinice.releng.client 1.23.1.202202191421) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-19 15:26:50.015
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-19 15:26:50.015
+!MESSAGE Add request for verinice server 1.23.1.202202191421 (sernet.verinice.releng.server.product 1.23.1.202202191421) is satisfiable
+!SESSION 2022-02-19 16:16:08.375 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho11733192536499142476secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho11733192536499142476secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-19 16:16:08.375
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-19 16:16:08.375
+!MESSAGE Add request for verinice 1.23.1.202202191512 (sernet.verinice.releng.client 1.23.1.202202191512) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-19 16:17:35.240
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-19 16:17:35.245
+!MESSAGE Add request for verinice server 1.23.1.202202191512 (sernet.verinice.releng.server.product 1.23.1.202202191512) is satisfiable
+!SESSION 2022-02-19 16:48:22.051 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho10044197315622495521secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho10044197315622495521secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-19 16:48:22.056
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-19 16:48:22.057
+!MESSAGE Add request for verinice 1.23.1.202202191544 (sernet.verinice.releng.client 1.23.1.202202191544) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-19 16:49:43.398
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-19 16:49:43.399
+!MESSAGE Add request for verinice server 1.23.1.202202191544 (sernet.verinice.releng.server.product 1.23.1.202202191544) is satisfiable
+!SESSION 2022-02-20 10:44:50.056 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho12162943936257634254secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho12162943936257634254secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-20 10:44:50.062
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-20 10:44:50.063
+!MESSAGE Add request for verinice 1.23.1.202202200940 (sernet.verinice.releng.client 1.23.1.202202200940) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-20 10:46:12.234
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-20 10:46:12.236
+!MESSAGE Add request for verinice server 1.23.1.202202200940 (sernet.verinice.releng.server.product 1.23.1.202202200940) is satisfiable
+!SESSION 2022-02-20 11:24:25.152 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho13782735233309573019secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho13782735233309573019secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-20 11:24:25.158
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-20 11:24:25.160
+!MESSAGE Add request for verinice 1.23.1.202202201020 (sernet.verinice.releng.client 1.23.1.202202201020) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-20 11:25:42.870
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-20 11:25:42.870
+!MESSAGE Add request for verinice server 1.23.1.202202201020 (sernet.verinice.releng.server.product 1.23.1.202202201020) is satisfiable
+!SESSION 2022-02-20 12:17:26.338 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho273268842584518710secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho273268842584518710secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-20 12:17:26.343
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-20 12:17:26.344
+!MESSAGE Add request for verinice 1.23.1.202202201114 (sernet.verinice.releng.client 1.23.1.202202201114) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-20 12:18:43.528
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-20 12:18:43.529
+!MESSAGE Add request for verinice server 1.23.1.202202201114 (sernet.verinice.releng.server.product 1.23.1.202202201114) is satisfiable
+!SESSION 2022-02-20 13:11:27.565 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho15693589008697863886secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho15693589008697863886secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-20 13:11:27.572
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-20 13:11:27.573
+!MESSAGE Add request for verinice 1.23.1.202202201207 (sernet.verinice.releng.client 1.23.1.202202201207) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-20 13:12:51.070
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-20 13:12:51.071
+!MESSAGE Add request for verinice server 1.23.1.202202201207 (sernet.verinice.releng.server.product 1.23.1.202202201207) is satisfiable
+!SESSION 2022-02-20 14:03:33.861 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho7805651097901664467secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho7805651097901664467secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-20 14:03:33.866
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-20 14:03:33.867
+!MESSAGE Add request for verinice 1.23.1.202202201258 (sernet.verinice.releng.client 1.23.1.202202201258) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-20 14:04:56.468
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-20 14:04:56.469
+!MESSAGE Add request for verinice server 1.23.1.202202201258 (sernet.verinice.releng.server.product 1.23.1.202202201258) is satisfiable
+!SESSION 2022-02-20 14:58:42.828 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho554880387264460412secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho554880387264460412secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-20 14:58:42.833
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-20 14:58:42.834
+!MESSAGE Add request for verinice 1.23.1.202202201354 (sernet.verinice.releng.client 1.23.1.202202201354) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-20 15:00:11.689
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-20 15:00:11.690
+!MESSAGE Add request for verinice server 1.23.1.202202201354 (sernet.verinice.releng.server.product 1.23.1.202202201354) is satisfiable
+!SESSION 2022-02-20 16:09:46.688 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho15765592367361193163secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho15765592367361193163secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-20 16:09:46.704
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-20 16:09:46.704
+!MESSAGE Add request for verinice 1.23.1.202202201505 (sernet.verinice.releng.client 1.23.1.202202201505) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-20 16:11:05.952
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-20 16:11:05.952
+!MESSAGE Add request for verinice server 1.23.1.202202201505 (sernet.verinice.releng.server.product 1.23.1.202202201505) is satisfiable
+!SESSION 2022-02-20 21:56:46.146 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho4610327501183523077secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho4610327501183523077secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-20 21:56:46.163
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-20 21:56:46.163
+!MESSAGE Add request for verinice 1.23.1.202202202046 (sernet.verinice.releng.client 1.23.1.202202202046) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-20 21:59:56.963
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-20 21:59:56.966
+!MESSAGE Add request for verinice server 1.23.1.202202202046 (sernet.verinice.releng.server.product 1.23.1.202202202046) is satisfiable
+!SESSION 2022-02-20 23:30:08.742 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho14677366199585005787secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho14677366199585005787secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-20 23:30:08.745
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-20 23:30:08.746
+!MESSAGE Add request for verinice 1.23.1.202202202225 (sernet.verinice.releng.client 1.23.1.202202202225) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-20 23:31:33.400
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-20 23:31:33.401
+!MESSAGE Add request for verinice server 1.23.1.202202202225 (sernet.verinice.releng.server.product 1.23.1.202202202225) is satisfiable
+!SESSION 2022-02-20 23:35:33.529 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho14101336707669859543secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho14101336707669859543secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-20 23:35:33.535
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-20 23:35:33.536
+!MESSAGE Add request for verinice 1.23.1.202202202232 (sernet.verinice.releng.client 1.23.1.202202202232) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-20 23:37:17.252
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-20 23:37:17.254
+!MESSAGE Add request for verinice server 1.23.1.202202202232 (sernet.verinice.releng.server.product 1.23.1.202202202232) is satisfiable
+!SESSION 2022-02-21 09:54:00.823 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho13796390776815790602secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho13796390776815790602secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2022-02-21 09:54:00.852
+!MESSAGE Connection to http://download.eclipse.org/eclipse/updates/4.20/p2.index failed on Connect to download.eclipse.org:80 [download.eclipse.org/198.41.30.199] failed: Connection timed out: connect. Retry attempt 0 started
+!STACK 0
+org.apache.http.conn.HttpHostConnectException: Connect to download.eclipse.org:80 [download.eclipse.org/198.41.30.199] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1003)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:995)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:991)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 13 more
+!SESSION 2022-02-21 10:06:12.919 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho3720496097463327022secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho3720496097463327022secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-21 10:06:12.924
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-21 10:06:12.926
+!MESSAGE Add request for verinice 1.23.1.202202210901 (sernet.verinice.releng.client 1.23.1.202202210901) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-21 10:07:27.242
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-21 10:07:27.243
+!MESSAGE Add request for verinice server 1.23.1.202202210901 (sernet.verinice.releng.server.product 1.23.1.202202210901) is satisfiable
+!SESSION 2022-02-21 18:29:01.419 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho10324120206479987883secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho10324120206479987883secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-21 18:29:01.424
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-21 18:29:01.425
+!MESSAGE Add request for verinice 1.23.1.202202211724 (sernet.verinice.releng.client 1.23.1.202202211724) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-21 18:30:53.653
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-21 18:30:53.654
+!MESSAGE Add request for verinice server 1.23.1.202202211724 (sernet.verinice.releng.server.product 1.23.1.202202211724) is satisfiable
+!SESSION 2022-02-21 22:02:18.521 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho4353389994277674591secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho4353389994277674591secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-21 22:02:18.537
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-21 22:02:18.537
+!MESSAGE Add request for verinice 1.23.1.202202212057 (sernet.verinice.releng.client 1.23.1.202202212057) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-21 22:03:44.783
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-21 22:03:44.783
+!MESSAGE Add request for verinice server 1.23.1.202202212057 (sernet.verinice.releng.server.product 1.23.1.202202212057) is satisfiable
+!SESSION 2022-02-22 00:45:30.346 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho12675737480202463554secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho12675737480202463554secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-22 00:45:30.351
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-22 00:45:30.352
+!MESSAGE Add request for verinice 1.23.1.202202212342 (sernet.verinice.releng.client 1.23.1.202202212342) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-22 00:46:48.915
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-22 00:46:48.916
+!MESSAGE Add request for verinice server 1.23.1.202202212342 (sernet.verinice.releng.server.product 1.23.1.202202212342) is satisfiable
+!SESSION 2022-02-22 01:39:40.428 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho11718711726002518606secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho11718711726002518606secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-22 01:39:40.433
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-22 01:39:40.433
+!MESSAGE Add request for verinice 1.23.1.202202220035 (sernet.verinice.releng.client 1.23.1.202202220035) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-22 01:40:57.283
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-22 01:40:57.298
+!MESSAGE Add request for verinice server 1.23.1.202202220035 (sernet.verinice.releng.server.product 1.23.1.202202220035) is satisfiable
+!SESSION 2022-02-22 02:00:23.936 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho8487383428401814120secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho8487383428401814120secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-22 02:00:23.941
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-22 02:00:23.942
+!MESSAGE Add request for verinice 1.23.1.202202220056 (sernet.verinice.releng.client 1.23.1.202202220056) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-22 02:01:42.345
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-22 02:01:42.346
+!MESSAGE Add request for verinice server 1.23.1.202202220056 (sernet.verinice.releng.server.product 1.23.1.202202220056) is satisfiable
+!SESSION 2022-02-22 11:39:29.519 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho17097062092966016021secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho17097062092966016021secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-22 11:39:29.531
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-22 11:39:29.535
+!MESSAGE Add request for verinice 1.23.1.202202221030 (sernet.verinice.releng.client 1.23.1.202202221030) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-22 11:42:26.272
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-22 11:42:26.275
+!MESSAGE Add request for verinice server 1.23.1.202202221030 (sernet.verinice.releng.server.product 1.23.1.202202221030) is satisfiable
+!SESSION 2022-02-22 12:56:07.575 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho10892033127685160144secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho10892033127685160144secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-22 12:56:07.579
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-22 12:56:07.580
+!MESSAGE Add request for verinice 1.23.1.202202221151 (sernet.verinice.releng.client 1.23.1.202202221151) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-22 12:57:24.483
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-22 12:57:24.484
+!MESSAGE Add request for verinice server 1.23.1.202202221151 (sernet.verinice.releng.server.product 1.23.1.202202221151) is satisfiable
+!SESSION 2022-02-22 13:25:15.564 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho6139408106050236479secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho6139408106050236479secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-22 13:25:15.568
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-22 13:25:15.569
+!MESSAGE Add request for verinice 1.23.1.202202221221 (sernet.verinice.releng.client 1.23.1.202202221221) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-22 13:26:31.019
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-22 13:26:31.020
+!MESSAGE Add request for verinice server 1.23.1.202202221221 (sernet.verinice.releng.server.product 1.23.1.202202221221) is satisfiable
+!SESSION 2022-02-22 13:50:42.403 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho9081351893718215479secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho9081351893718215479secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-22 13:50:42.408
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-22 13:50:42.410
+!MESSAGE Add request for verinice 1.23.1.202202221246 (sernet.verinice.releng.client 1.23.1.202202221246) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-22 13:52:05.242
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-22 13:52:05.242
+!MESSAGE Add request for verinice server 1.23.1.202202221246 (sernet.verinice.releng.server.product 1.23.1.202202221246) is satisfiable
+!SESSION 2022-02-22 14:07:46.161 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho11157616514766203730secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho11157616514766203730secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-22 14:07:46.161
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-22 14:07:46.177
+!MESSAGE Add request for verinice 1.23.1.202202221303 (sernet.verinice.releng.client 1.23.1.202202221303) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-22 14:09:18.463
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-22 14:09:18.479
+!MESSAGE Add request for verinice server 1.23.1.202202221303 (sernet.verinice.releng.server.product 1.23.1.202202221303) is satisfiable
+!SESSION 2022-02-22 14:53:24.649 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho16390921480034354980secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Lenovo\AppData\Local\Temp\tycho16390921480034354980secure_storage -debug -consoleLog
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-22 14:53:24.653
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-22 14:53:24.654
+!MESSAGE Add request for verinice 1.23.1.202202221349 (sernet.verinice.releng.client 1.23.1.202202221349) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-02-22 14:54:46.541
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-02-22 14:54:46.542
+!MESSAGE Add request for verinice server 1.23.1.202202221349 (sernet.verinice.releng.server.product 1.23.1.202202221349) is satisfiable

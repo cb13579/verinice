@@ -116,6 +116,18 @@ public class Messages extends NLS {
 
     public static String NoteEditor_5;
 
+    public static String M365StatusEditor_0;
+
+    public static String M365StatusEditor_1;
+
+    public static String M365StatusEditor_2;
+
+    public static String M365StatusEditor_3;
+
+    public static String M365StatusEditor_4;
+
+    public static String M365StatusEditor_5;
+
     public static String RiskConfigurationEditorInput_name;
 
     public static String RiskConfigurationEditorInput_tooltip;

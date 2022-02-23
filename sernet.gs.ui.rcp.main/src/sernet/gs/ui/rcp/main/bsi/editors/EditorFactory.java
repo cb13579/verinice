@@ -151,6 +151,7 @@ public final class EditorFactory {
         registerTodoViewItem();
         registerAttachment();
         registerNote();
+        registerM365Status();
         typedFactories.put(LinkTableEditorInput.class, linkTableEditorFactory);
     }
 
@@ -224,6 +225,18 @@ public final class EditorFactory {
             }
         };
         typedFactories.put(Note.class, noteEditorFactory);
+    }
+    private void registerM365Status() {
+        IEditorTypeFactory statusEditorFactory = new IEditorTypeFactory() {
+            @Override
+            public void openEditorFor(Object o) throws PartInitException {
+                // replace element with new instance from DB:
+                Note selection = (Note) o;
+                M365StatusEditorInput input = new M365StatusEditorInput(selection);
+                openEditor(String.valueOf(input.getId()), input, M365StatusEditor.EDITOR_ID);
+            }
+        };
+        typedFactories.put(Note.class, statusEditorFactory);
     }
 
     private void registerAttachment() {

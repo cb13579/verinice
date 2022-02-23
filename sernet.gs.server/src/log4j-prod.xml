@@ -24,12 +24,10 @@
 	</appender>
 
     <!-- Add settings for packages here  -->
-    <!--
-    <logger name="sernet.gs.ui.rcp.main.service">
+    <logger name="sernet.gs.ui.rcp.main">
         <level value="DEBUG" />
     </logger>
-    -->
-	
+    
 	<!-- Logger for everything else -->
 	<root>
 		<priority value="WARN" />

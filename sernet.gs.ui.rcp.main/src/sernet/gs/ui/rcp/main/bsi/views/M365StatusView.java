@@ -20,6 +20,7 @@ package sernet.gs.ui.rcp.main.bsi.views;
 import java.util.List;
 import java.util.Optional;
 
+import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.eclipse.jface.action.Action;
 import org.eclipse.jface.action.IAction;
@@ -60,6 +61,7 @@ import sernet.verinice.interfaces.CommandException;
 import sernet.verinice.interfaces.ICommandService;
 import sernet.verinice.iso27k.rcp.ILinkedWithEditorView;
 import sernet.verinice.iso27k.rcp.LinkWithEditorPartListener;
+import sernet.verinice.model.bp.groups.BpRequirementGroup;
 import sernet.verinice.model.bsi.BSIModel;
 import sernet.verinice.model.bsi.IBSIModelListener;
 import sernet.verinice.model.bsi.Note;
@@ -80,7 +82,7 @@ public class M365StatusView extends RightsEnabledView implements ILinkedWithEdit
 
     private ICommandService commandService;
 
-    private CnATreeElement currentCnaElement;
+    private CnATreeElement currentCnaElement = null;
 
     private RightsEnabledAction addM365StatusAction;
 
@@ -111,7 +113,9 @@ public class M365StatusView extends RightsEnabledView implements ILinkedWithEdit
     @Override
     public void createPartControl(Composite parent) {
         super.createPartControl(parent);
-
+    	LOG.setLevel(Level.DEBUG);
+		LOG.debug("createPartControl called");
+	
         final int expandBarSpacing = 4;
 
         parent.setLayout(new FillLayout());
@@ -172,15 +176,30 @@ public class M365StatusView extends RightsEnabledView implements ILinkedWithEdit
     }
 
     private void elementSelected(Object element) {
+    	LOG.setLevel(Level.DEBUG);
+    	LOG.debug("elementSelected:");
     	if(element==null) {
     		LOG.error("element is null");
     		return;
     	}
+    	 
     	LOG.trace(element);
     	LOG.trace(getCurrentCnaElement());
+    	 
     	if (element instanceof CnATreeElement && !element.equals(getCurrentCnaElement())) {
+    		LOG.debug("title:" + ((CnATreeElement)element).getTitle());
+    		LOG.debug("type:" + ((CnATreeElement)element).getTypeId());
+    		
     		if (addM365StatusAction.checkRights()) {
-                addM365StatusAction.setEnabled(true);
+    			if((((CnATreeElement)element).getTypeId().equals(BpRequirementGroup.TYPE_ID)) && 
+    					((CnATreeElement)element).getTitle().startsWith("Cloud")) {
+    				addM365StatusAction.setEnabled(true);
+    				LOG.debug("elementSelected: found Group:" + ((CnATreeElement)element).getTitle());
+    			}
+    			else {
+    				LOG.debug("elementSelected: entry not elligible:" + ((CnATreeElement)element).getTitle());
+    				addM365StatusAction.setEnabled(false);
+    			}
             }
             setCurrentCnaElement((CnATreeElement) element);
             clear();
@@ -232,6 +251,9 @@ public class M365StatusView extends RightsEnabledView implements ILinkedWithEdit
     }
 
     public void loadNotes() {
+    	LOG.setLevel(Level.DEBUG);
+		LOG.debug("loadNotes called");
+	
         final int defaultMargin = 4;
         final int layoutVerticalSpacing = 10;
         final int gdHeightHint = 100;

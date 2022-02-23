@@ -45,6 +45,7 @@
             <action id="additnetwork" />
             <action id="additverbund" />
             <action id="addnote" />
+            <action id="addstatus" />
             <action id="addownmodul"/>
             <action id="addsecurityassessment" />
             <action id="assignallisatopics" />
